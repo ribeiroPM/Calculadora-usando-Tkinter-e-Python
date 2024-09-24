@@ -55,7 +55,7 @@ def adicionar_operador(operador):
 		equacao['operador'] = operador
 	else:
 		resultado = resolver_equacao()
-		mostra_na_tela(resultado)
+		mostra_na_tela("hello world")
 		if equacao['operador'] != '=':
 			equacao['numeros'][0] = str(resultado)
 			equacao['numeros'][1] = ''
